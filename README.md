@@ -1,6 +1,6 @@
 # Mushroom EDA & Predictive Modeling
-#### STAT 301-2 Final Project
+#### STAT 302 Final Project
 
-Utilized extensive data detailing mushroom characteristics to understand which may be indicative or edible or poisonous properties. Predictor variables including mushroom class, cap shape, cap surface, bruises, odor, gill size, population, habitat, etc. were studied and then utilized into classification models including logistic regression, random forest, boosted tree, and k-Nearest neighbors. The best model was identified and fitted to the testing dataset. 
+Utilized data detailing the distribution of medals won by each country for each sport from the 1976-2008 Summer Olympic Games. The interactive nature of this visualization allows user to select which the year of the games they're interested in as well as whether to hone in on the top sports, countries, or gender distribution of the games. With this design, I hoped to highlight the home-field advantage and greater women involvement over the years, as well as trends in the most popular games at the time.
 
-I recommend taking a look at the HTML files ([input the HTML link here to view](https://htmlpreview.github.io/)) to understand the development, execution, and conclusions of this study. The codes to the visualizations and models are also included!
+[Here it is! Please interact with me lalala](https://sammymustafa.shinyapps.io/olympics/)
