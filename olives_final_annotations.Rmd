@@ -1,0 +1,50 @@
+---
+title: "Final Project Annotations"
+subtitle: "Data Visualization (STAT 302)"
+author: "olives"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    highlight: "tango"
+---
+
+```{r global-settings, include=FALSE}
+knitr::opts_chunk$set(
+  warning = FALSE, message = FALSE, echo = FALSE
+)
+```
+
+
+# Data Source
+
+The data source used for this is the "Summer Olympics Medals (1976-2008)" data set resourced from Kaggle. This contains 11 columns and 15,433 rows of data related to the medals awarded at every Summer Olympics between 1976 and 2008. The columns include the city and year of the Olympic games, the sport, discipline, and event of the medal, the athlete awarded the medal, the gender of the athlete, the athlete's country and the country code, the gender of the event, and the type of medal awarded. 
+
+Citation: 
+
+Agrawal, D. (2020, February 3). Summer Olympics medals (1976-2008). Kaggle. Retrieved from https://www.kaggle.com/datasets/divyansh22/summer-olympics-medals 
+<br><br>
+
+
+# Core Concepts
+
+Considering the interactive nature of this visualization, various core insights can be derived from this. 
+
+For one, it can provide data related which countries usually perform the best at the Summer Olympic. This is possible because the visualization selects the five countries that win the most amount of medals to present. It seems that the United States, Russia, China, Australia, and Germany are mostly the countries outperforming the rest. In addition, this aspect provides us an understanding of the medal distribution for the top countries for the selected year, in which it seems mostly split even; however, there are interesting moments when the distribution is uneven such as how the United States received mainly gold medals at the Sydney 2000 Summer Olympics.
+
+Next, the data related to which sports usually contribute to the most medals can be understood. Again, this is because the visualization selects the five sports that win the most amount of medals to present. It seems like Aquatics, Athletics (Track & Field), Football, and Gymnastics are the sports that provide the most awards. This medal distribution is even as each sport provides each type of medal at each event. However, it was interesting to see how many more awards are derived from the aquatic events compared to the other sports.
+
+Lastly, the data related to the number of medals awarded to each gender can be analyzed. In all cases, men received more medals than females. This also had an even medal distribution as the events provide each type of medal for both genders. 
+<br><br>
+
+# Interactive Design
+
+The interactive design is extremely helpful as it just allows more core concepts to be derived from the data visualization. This is because while the data selection and widget allow for a focus of the variable of interest from one specific year, being able to go back and forth from different Olympic Games allows for a juxtaposition and overall comparison to be made for all these variables. This allows for a trend from specific years to be identified as well as trends over the years of the Olympic Games as a whole. 
+
+For the country medal distribution, it is interesting to see how the top countries change from year to year. This can be very well attributed to the location of the Olympic Games. Using the caption, one can identify the location of the Olympic Games and thus see if this country is on the top countries list. This is best seen in the 1980 Moscow Summer Olympic Games as the Soviet Union well overrides every single other country in every medal type. In addition, it can track the record and progress of a country's performance at the games: whether or not their teams are improving or getting worse, in respect to other teams.
+
+Next, the interactive design widget allows for a focus on the sports providing the highest amount of medals. Thus, by studying the changes across the years, one can study which sports were becoming more popular or fading away over time in the Summer Olympic Games. While the distribution of awards seemed to be more leveled in earlier games, it seemed like the Aquatic and Athletics sports began to accumulate more disciplines and thus more awards. In addition, it seemed like sports like Handball began to fade away from providing countries with the most amount of awards.
+
+Lastly, the interactive widget with the gender option allows to see how the medal distribution was across gender. While men still provide their countries with more medals, the interactive design of being able to compare years displays how proceeding Olympic Games has more women receiving medals. This really trend toward equality spiked in 1996, but there is still a gap of approximately 200 awards between the genders.
+
+Overall, the interactive aspect of this visualization allows for many more trends to be identified compared to a static design.
